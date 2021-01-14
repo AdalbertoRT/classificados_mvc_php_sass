@@ -1,0 +1,73 @@
+header {
+    nav {
+        div{
+            a {
+                color: #eee;
+            }
+            a:hover {
+                color: #aaa;
+            }
+        }
+        li {
+            a {
+                color: #eee;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            a:hover {
+                color: #aaa;
+            }
+            
+        }
+    }
+}
+
+table {
+    tr {
+        text-align: center;
+        td {
+            img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}
+
+.card {
+    .card-body {
+        .imgs {
+            width: 150px;
+            height: 200px;
+            margin-right: 10px;
+                       
+            img{
+                width: 140px;
+                height: 160px;
+            }
+        }
+    }
+    
+}
+.pagination {
+    li{
+        .prev, .next{
+            font-size: 22pt!important;
+        }
+        
+    }
+    .disabled {
+        .prev, .next{
+            border: 1px solid #ccc!important;
+            color: #ccc;
+        }
+    }
+}
+.carousel-control-prev, .carousel-control-next-icon{
+    .carousel-control-prev-icon, .carousel-control-next-icon{
+        text-shadow: 2px 2px #333;
+        color: #111;
+    }
+}        

@@ -1,0 +1,16 @@
+header nav div a { color: #eee; }
+header nav div a:hover { color: #aaa; }
+header nav li a { color: #eee; }
+header nav li a img { width: 30px; height: 30px; }
+header nav li a:hover { color: #aaa; }
+
+table tr { text-align: center; }
+table tr td img { width: 50px; height: 50px; }
+
+.card .card-body .imgs { width: 150px; height: 200px; margin-right: 10px; }
+.card .card-body .imgs img { width: 140px; height: 160px; }
+
+.pagination li .prev, .pagination li .next { font-size: 22pt !important; }
+.pagination .disabled .prev, .pagination .disabled .next { border: 1px solid #ccc !important; color: #ccc; }
+
+.carousel-control-prev .carousel-control-prev-icon, .carousel-control-prev .carousel-control-next-icon, .carousel-control-next-icon .carousel-control-prev-icon, .carousel-control-next-icon .carousel-control-next-icon { text-shadow: 2px 2px #333; color: #111; }
